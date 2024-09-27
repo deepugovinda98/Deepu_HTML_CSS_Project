@@ -1,0 +1,288 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(30, 130, 30) 5%, rgb(7, 66, 7) 80%);
+}
+*{
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(13, 28, 13);
+    padding: 1rem 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+}
+
+
+.logo{
+    font-size: 30px;
+    color: rgb(224, 215, 164);
+    font-style: italic;
+}
+nav a{
+    font-size: 18px;
+    color: rgb(224, 215, 164);
+    font-weight: 600;
+    margin-right: 125px;
+    font-style: italic;
+}
+
+nav a:hover,
+nav a:active{
+    color: goldenrod;
+}
+#Home{
+    scroll-margin-top: 250px;
+}
+.home-content{
+    margin-top: 220px;
+    margin-left: 320px;
+}
+
+.home-content h2{
+    position: relative;
+    top: 25px;
+    font-size: 30px;
+    color:  rgb(224, 215, 164);
+    font-style: italic;
+}
+.home-content h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+    color:  rgb(224, 215, 164);
+    font-style: italic;
+    font-weight: bold;
+}
+.home-content h3{
+    margin-top: 15px;
+    font-size: 25px;
+    color:  rgb(224, 215, 164);
+    font-style: italic;
+}
+.home-content p{
+    margin-top: 20px;
+    font-size: 25px;
+    color:  rgb(224, 215, 164);
+    font-style: italic;
+}
+.image{
+    position:relative;
+    left:600px;
+    bottom: 320px;
+}
+
+.image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.home-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.icon:hover{
+    transform: scale(1.2);
+}
+.resume{
+    position: relative;
+    bottom: 300px;
+    left: 400px;
+}
+.resume a:hover{
+    background-color: goldenrod;
+}
+.resume a{
+    width: 170px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgb(224, 215, 164);
+    font-size: 20px;    
+    padding: 10px;
+    color: black;
+}
+#about{
+    height: 100vh;
+    scroll-margin-top: 60px;
+}
+#about h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 40px;
+    width: 400px;
+    color: rgb(224, 215, 164);
+    letter-spacing: 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgb(13, 28, 13);
+    border-radius: 45px;
+
+}
+#about p{
+    margin: auto;
+    font-size: 40px;
+    color: rgb(224, 215, 164);
+    text-align: center;
+    width: 900px;
+    height: 500px;
+}   
+
+#skills{
+    height: 100vh;
+    scroll-margin-top: 60px;
+}
+#skills h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 40px;
+    width: 400px;
+    color: rgb(224, 215, 164);
+    letter-spacing: 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgb(13, 28, 13);
+    border-radius: 45px;
+}
+.skill_pos{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 90px;
+    row-gap: 25px;
+    justify-content: center;
+    row-gap: 60px;
+    column-gap: 400px;
+}
+.skill_icons{
+    margin-top: 75px;
+    width: 125px;
+    height: 125px;
+}
+#contact{
+    height:76vh;
+    scroll-margin-top: 60px;
+}
+#contact h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 40px;
+    width: 400px;
+    color: rgb(224, 215, 164);
+    letter-spacing: 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgb(13, 28, 13);
+    border-radius: 45px;
+}
+.contact_pos{
+    text-align: center;
+}
+.Rectangle1 input{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(123, 186, 123);
+    border: none;
+    border-radius: 15px;
+    padding: 16px 18px;
+    font-size: 18px;
+    color: rgb(13, 36, 13);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    position: relative;
+    left: 450px;
+}
+
+.Rectangle1 label{
+    position: relative;
+    left: 400px;
+}
+
+.Rectangle2 label{
+    position: relative;
+    left: 390px;
+    bottom: 120px;
+}
+.Rectangle1 input::placeholder {
+    color: rgba(54, 35, 35, 0.8);
+    font-size: 18px;
+}
+
+.Rectangle2 textarea {
+    width: 500px;
+    height: 150px;
+    background-color: rgb(123, 186, 123);
+    border: none;
+    border-radius: 15px;
+    padding: 16px 18px;
+    font-size: 18px;
+    color: rgb(13, 36, 13);
+    box-sizing: border-box;
+    resize: none; /* Prevents resizing of the textarea */
+    position: relative;
+    left: 420px;
+}
+
+.Rectangle2 textarea::placeholder {
+    color: rgba(34, 46, 33, 0.8);
+    font-size: 18px;
+}
+
+.submit1{
+    position: relative;
+    top:30px;
+    left: 690px;
+}
+.submit1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: rgb(224, 215, 164);
+    font-size: 20px;
+}
+.submit1 button:hover{
+    background-color: goldenrod;
+}
+.lb{
+    color: rgb(224, 215, 164);
+    font-size: 25px;
+}
+footer {
+    bottom:0;
+    left:0;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(13, 28, 13);
+}
+footer p{
+    position: relative;
+    color: rgb(224, 215, 164);
+    left: 510px;
+    top: 10px;
+    font-size: 20px;
+}
+.p1{
+    position: relative;
+    left: 570px;
+}
