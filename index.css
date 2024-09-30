@@ -83,7 +83,7 @@ nav a:active{
 .image img{
     width: 400px;
     height: 400px;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 .home-icons{
     display: flex;
